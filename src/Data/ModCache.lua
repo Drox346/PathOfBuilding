@@ -5523,7 +5523,7 @@ c["70% increased Armour"]={{[1]={flags=0,keywordFlags=0,name="Armour",type="INC"
 c["70% increased Armour and Energy Shield"]={{[1]={flags=0,keywordFlags=0,name="ArmourAndEnergyShield",type="INC",value=70}},nil}
 c["70% increased Armour and Evasion"]={{[1]={flags=0,keywordFlags=0,name="ArmourAndEvasion",type="INC",value=70}},nil}
 c["70% increased Aspect of the Spider Area of Effect"]={{[1]={[1]={skillName="Aspect of the Spider",type="SkillName"},flags=0,keywordFlags=0,name="AreaOfEffect",type="INC",value=70}},nil}
-c["70% increased Attack Damage if your other Ring is a Shaper Item"]={{[1]={[1]={type="Condition",var="ShaperItemInRing {OtherSlotNum}"},flags=1,keywordFlags=0,name="Damage",type="INC",value=70}},nil}
+c["70% increased Attack Damage if your other Ring is a Shaper Item"]={{[1]={[1]={itemSlot="Ring {OtherSlotNum}",shaperCond=true,type="ItemCondition"},flags=1,keywordFlags=0,name="Damage",type="INC",value=70}},nil}
 c["70% increased Burning Damage"]={{[1]={flags=0,keywordFlags=134217728,name="FireDamage",type="INC",value=70}},nil}
 c["70% increased Charges per use"]={{[1]={flags=0,keywordFlags=0,name="FlaskChargesUsed",type="INC",value=70}},nil}
 c["70% increased Critical Strike Chance"]={{[1]={flags=0,keywordFlags=0,name="CritChance",type="INC",value=70}},nil}
@@ -5547,7 +5547,7 @@ c["70% increased Life Recovery from Flasks while affected by Vitality"]={{[1]={[
 c["70% increased Physical Damage"]={{[1]={flags=0,keywordFlags=0,name="PhysicalDamage",type="INC",value=70}},nil}
 c["70% increased Rarity of Items found"]={{[1]={flags=0,keywordFlags=0,name="LootRarity",type="INC",value=70}},nil}
 c["70% increased Spell Damage"]={{[1]={flags=2,keywordFlags=0,name="Damage",type="INC",value=70}},nil}
-c["70% increased Spell Damage if your other Ring is an Elder Item"]={{[1]={[1]={type="Condition",var="ElderItemInRing {OtherSlotNum}"},flags=2,keywordFlags=0,name="Damage",type="INC",value=70}},nil}
+c["70% increased Spell Damage if your other Ring is an Elder Item"]={{[1]={[1]={elderCond=true,itemSlot="Ring {OtherSlotNum}",type="ItemCondition"},flags=2,keywordFlags=0,name="Damage",type="INC",value=70}},nil}
 c["70% increased Stun Duration on Enemies"]={{[1]={flags=0,keywordFlags=0,name="EnemyStunDuration",type="INC",value=70}},nil}
 c["70% less Ward during Effect"]={{[1]={[1]={type="Condition",var="UsingFlask"},flags=0,keywordFlags=0,name="Ward",type="MORE",value=-70}},nil}
 c["70% more Main Hand attack speed"]={{[1]={[1]={type="Condition",var="MainHandAttack"},[2]={skillType=1,type="SkillType"},flags=1,keywordFlags=0,name="Speed",type="MORE",value=70}},nil}
@@ -5700,7 +5700,7 @@ c["80% increased Armour"]={{[1]={flags=0,keywordFlags=0,name="Armour",type="INC"
 c["80% increased Armour and Energy Shield"]={{[1]={flags=0,keywordFlags=0,name="ArmourAndEnergyShield",type="INC",value=80}},nil}
 c["80% increased Armour and Evasion"]={{[1]={flags=0,keywordFlags=0,name="ArmourAndEvasion",type="INC",value=80}},nil}
 c["80% increased Armour while stationary"]={{[1]={[1]={type="Condition",var="Stationary"},flags=0,keywordFlags=0,name="Armour",type="INC",value=80}},nil}
-c["80% increased Attack Damage if your other Ring is a Shaper Item"]={{[1]={[1]={type="Condition",var="ShaperItemInRing {OtherSlotNum}"},flags=1,keywordFlags=0,name="Damage",type="INC",value=80}},nil}
+c["80% increased Attack Damage if your other Ring is a Shaper Item"]={{[1]={[1]={itemSlot="Ring {OtherSlotNum}",shaperCond=true,type="ItemCondition"},flags=1,keywordFlags=0,name="Damage",type="INC",value=80}},nil}
 c["80% increased Burning Damage"]={{[1]={flags=0,keywordFlags=134217728,name="FireDamage",type="INC",value=80}},nil}
 c["80% increased Chaos Damage"]={{[1]={flags=0,keywordFlags=0,name="ChaosDamage",type="INC",value=80}},nil}
 c["80% increased Charges per use"]={{[1]={flags=0,keywordFlags=0,name="FlaskChargesUsed",type="INC",value=80}},nil}
@@ -5738,7 +5738,7 @@ c["80% increased Physical Damage with Axes"]={{[1]={flags=65540,keywordFlags=0,n
 c["80% increased Projectile Attack Damage"]={{[1]={flags=1025,keywordFlags=0,name="Damage",type="INC",value=80}},nil}
 c["80% increased Projectile Damage"]={{[1]={flags=1024,keywordFlags=0,name="Damage",type="INC",value=80}},nil}
 c["80% increased Spell Damage"]={{[1]={flags=2,keywordFlags=0,name="Damage",type="INC",value=80}},nil}
-c["80% increased Spell Damage if your other Ring is an Elder Item"]={{[1]={[1]={type="Condition",var="ElderItemInRing {OtherSlotNum}"},flags=2,keywordFlags=0,name="Damage",type="INC",value=80}},nil}
+c["80% increased Spell Damage if your other Ring is an Elder Item"]={{[1]={[1]={elderCond=true,itemSlot="Ring {OtherSlotNum}",type="ItemCondition"},flags=2,keywordFlags=0,name="Damage",type="INC",value=80}},nil}
 c["80% increased Stun Duration on Enemies"]={{[1]={flags=0,keywordFlags=0,name="EnemyStunDuration",type="INC",value=80}},nil}
 c["80% increased Stun and Block Recovery"]={{[1]={flags=0,keywordFlags=0,name="StunRecovery",type="INC",value=80}},nil}
 c["80% increased Ward"]={{[1]={flags=0,keywordFlags=0,name="Ward",type="INC",value=80}},nil}
@@ -7317,13 +7317,13 @@ c["Crucible Passive Skill Tree is removed if this Modifier is removed"]={{},nil}
 c["Crush Enemies for 4 seconds when you Hit them while they are on Full Life"]={nil,"Crush Enemies for 4 seconds when you Hit them while they are on Full Life "}
 c["Crush Enemies for 4 seconds when you Hit them while they are on Full Life 40% increased Physical Damage"]={nil,"Crush Enemies for 4 seconds when you Hit them while they are on Full Life 40% increased Physical Damage "}
 c["Crush Enemies on hit with Maces and Sceptres"]={{[1]={[1]={type="Condition",var="UsingMace"},flags=0,keywordFlags=0,name="EnemyModifier",type="LIST",value={mod={flags=0,keywordFlags=0,name="Condition:Crushed",type="FLAG",value=true}}}},nil}
-c["Culling Strike"]={{[1]={flags=0,keywordFlags=0,name="CullPercent",type="MAX",value=10}},nil}
+c["Culling Strike"]={{[1]={[1]={effectType="Global",type="GlobalEffect",unscalable=true},flags=0,keywordFlags=0,name="CullPercent",type="MAX",value=10}},nil}
 c["Culling Strike against Burning Enemies"]={{[1]={[1]={actor="enemy",type="ActorCondition",var="Burning"},flags=0,keywordFlags=0,name="CullPercent",type="MAX",value=10}},nil}
 c["Culling Strike against Enemies Cursed with Poacher's Mark"]={nil,"Culling Strike against Enemies Cursed with Poacher's Mark "}
 c["Culling Strike against Enemies Cursed with Poacher's Mark You have Culling Strike against Cursed Enemies"]={nil,"Culling Strike against Enemies Cursed with Poacher's Mark You have Culling Strike against Cursed Enemies "}
 c["Culling Strike against Frozen Enemies"]={{[1]={[1]={actor="enemy",type="ActorCondition",var="Frozen"},flags=0,keywordFlags=0,name="CullPercent",type="MAX",value=10}},nil}
 c["Culling Strike against Marked Enemy"]={{[1]={[1]={actor="enemy",type="ActorCondition",var="Marked"},flags=0,keywordFlags=0,name="CullPercent",type="MAX",value=10}},nil}
-c["Culling Strike during Effect"]={{[1]={[1]={type="Condition",var="UsingFlask"},flags=0,keywordFlags=0,name="CullPercent",type="MAX",value=10}},nil}
+c["Culling Strike during Effect"]={{[1]={[1]={type="Condition",var="UsingFlask"},[2]={effectType="Global",type="GlobalEffect",unscalable=true},flags=0,keywordFlags=0,name="CullPercent",type="MAX",value=10}},nil}
 c["Curse Auras from Socketed Skills also affect you"]={nil,"Curse Auras from Socketed Skills also affect you "}
 c["Curse Auras from Socketed Skills also affect you Socketed Curse Gems have 50% increased Reservation Efficiency"]={nil,"Curse Auras from Socketed Skills also affect you Socketed Curse Gems have 50% increased Reservation Efficiency "}
 c["Curse Enemies which Hit you with a random Hex, ignoring Curse Limit"]={nil,"Curse Enemies which Hit you with a random Hex, ignoring Curse Limit "}
