@@ -156,15 +156,7 @@ end
 
 -- Copy an Active Skill
 function calcs.copyActiveSkill(env, mode, skill)
-	local activeEffect = {
-		grantedEffect = skill.activeEffect.grantedEffect,
-		level = skill.activeEffect.srcInstance.level,
-		quality = skill.activeEffect.srcInstance.quality,
-		qualityId = skill.activeEffect.srcInstance.qualityId,
-		srcInstance = skill.activeEffect.srcInstance,
-		gemData = skill.activeEffect.srcInstance.gemData,
-	}
-	local newSkill = calcs.createActiveSkill(activeEffect, skill.supportList, skill.actor, skill.socketGroup, skill.summonSkill)
+	local newSkill = calcs.createActiveSkill(skill.activeEffect, skill.supportList, skill.actor, skill.socketGroup, skill.summonSkill)
 	local newEnv, _, _, _ = calcs.initEnv(env.build, mode, env.override)
 	calcs.buildActiveSkillModList(newEnv, newSkill)
 	newSkill.skillModList = new("ModList", newSkill.baseSkillModList)
